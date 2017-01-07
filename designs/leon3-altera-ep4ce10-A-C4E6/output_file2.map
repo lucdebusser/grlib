@@ -1,0 +1,16 @@
+BLOCK		START ADDRESS		END ADDRESS
+
+hello.hex		0x00100000		0x001053BF
+Page_0		0x00000000		0x0002E675
+
+
+Configuration device: EP4CE10
+Configuration mode: Active Serial
+Quad-Serial configuration device dummy clock cycle: 8
+
+
+Notes:
+
+- Data checksum for this conversion is 0x1D9418FB
+
+- All the addresses in this file are byte addresses

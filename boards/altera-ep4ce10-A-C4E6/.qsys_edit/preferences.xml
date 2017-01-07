@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="All Interfaces">
+  <columns>
+   <connections preferredWidth="47" />
+   <irq preferredWidth="34" />
+  </columns>
+ </systemtable>
+ <library
+   expandedCategories="Library/University Program/Bridges,Library/Basic Functions/Bridges and Adaptors,Library/University Program/Audio &amp; Video,Library/Interface Protocols/Transceiver PHY,Library/Processors and Peripherals/Peripherals,Library/Interface Protocols/PCI Express,Library,Library/Basic Functions,Library/Processors and Peripherals/Embedded Processors,Library/Memory Interfaces and Controllers/SDRAM,Library/Processors and Peripherals/Hard Processor Components,Library/Qsys Interconnect,Library/University Program/Communications,Library/University Program/Memory,Library/University Program/Clock,Library/Processors and Peripherals,Library/Interface Protocols,Library/Basic Functions/Configuration and Programming,Library/Interface Protocols/Serial,Library/Processors and Peripherals/Inter-Process Communication,Library/University Program/Generic IO,Library/Low Power,Library/University Program,Library/Processors and Peripherals/Co-Processors,Project,Library/Memory Interfaces and Controllers,Library/Basic Functions/Arithmetic" />
+ <window width="1922" height="1100" x="-1" y="-15" />
+</preferences>

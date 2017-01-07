@@ -1,0 +1,16 @@
+Fitter Status : Successful - Fri Nov 25 21:11:58 2016
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Lite Edition
+Revision Name : leon3mp_quartus
+Top-level Entity Name : leon3mp
+Family : Cyclone IV E
+Device : EP4CE10E22C8
+Timing Models : Final
+Total logic elements : 6,927 / 10,320 ( 67 % )
+    Total combinational functions : 6,497 / 10,320 ( 63 % )
+    Dedicated logic registers : 2,482 / 10,320 ( 24 % )
+Total registers : 2482
+Total pins : 20 / 92 ( 22 % )
+Total virtual pins : 0
+Total memory bits : 147,456 / 423,936 ( 35 % )
+Embedded Multiplier 9-bit elements : 8 / 46 ( 17 % )
+Total PLLs : 1 / 2 ( 50 % )
