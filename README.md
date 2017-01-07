@@ -1,5 +1,6 @@
-Added support for cheap FPGA board : A-C4E6 with Altera EP4CE10E22C8N This board has NO external RAM. Only internal fpga block ram used. The bootprom is stored in the configuration device.
-
+Added support for cheap FPGA board : A-C4E6 with Altera EP4CE10E22C8N 
+This board has NO external RAM. Only internal fpga block ram used.
+The bootprom is stored in the configuration device.
 Several peripherals of this board are supported as new APB devices:
 
 12 LEDs
