@@ -1,3 +1,41 @@
+------------------------------------------------------------------------------
+--  This file is used with the GRLIB VHDL IP LIBRARY from Cobham Gaisler
+--
+--  This program is free software; you can redistribute it and/or modify
+--  it under the terms of the GNU General Public License as published by
+--  the Free Software Foundation; either version 2 of the License, or
+--  (at your option) any later version.
+--
+--  This program is distributed in the hope that it will be useful,
+--  but WITHOUT ANY WARRANTY; without even the implied warranty of
+--  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+--  GNU General Public License for more details.
+--
+--  You should have received a copy of the GNU General Public License
+--  along with this program; if not, write to the Free Software
+--  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+-----------------------------------------------------------------------------
+-- Entity: 	ldb_vga
+-- File:	ldb_vga.vhd
+-- Author:	Luc De Busser  luc.debusser@gmail.com
+-- Description:	
+-- VGA controller
+--  640x480 60 Hz  text only color display 30 lines x 80 characters
+--  with attributes per character: 1 bit R/G/B + blinking
+-- Interface to LEON3 is through APB : 3 registers :
+-- Address 0x80000600 : address in video/attrib memory
+-- Address 0x80000604 : ASCII value of character to show
+-- Address 0x80000608 : attribute : 
+--   bit 7: blinking
+--   bit 6: reserved
+--   bit 5: R background
+--   bit 4: G background
+--   bit 3: B background
+--   bit 2: R foreground
+--   bit 1: G foreground
+--   bit 0: B foreground
+------------------------------------------------------------------------------
+
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;

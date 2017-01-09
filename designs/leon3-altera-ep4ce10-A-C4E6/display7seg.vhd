@@ -1,3 +1,35 @@
+------------------------------------------------------------------------------
+--  This file is used with the GRLIB VHDL IP LIBRARY from Cobham Gaisler
+--
+--  This program is free software; you can redistribute it and/or modify
+--  it under the terms of the GNU General Public License as published by
+--  the Free Software Foundation; either version 2 of the License, or
+--  (at your option) any later version.
+--
+--  This program is distributed in the hope that it will be useful,
+--  but WITHOUT ANY WARRANTY; without even the implied warranty of
+--  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+--  GNU General Public License for more details.
+--
+--  You should have received a copy of the GNU General Public License
+--  along with this program; if not, write to the Free Software
+--  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+-----------------------------------------------------------------------------
+-- Entity: 	display7seg
+-- File:	display7seg.vhd
+-- Author:	Luc De Busser  luc.debusser@gmail.com
+-- Description:	
+-- A-C4E6 board has 8 multiplexed 7-segment displays
+-- Interface to LEON3 is through APB : 8 registers, one for each digit
+-- Address 0x80000500 : right most digit, value 0 .. 9
+-- Address 0x80000504 : ...
+-- Address 0x80000508 : ...
+-- Address 0x8000050c : ...
+-- Address 0x80000500 : ...
+-- Address 0x80000504 : ...
+-- Address 0x80000508 : ...
+-- Address 0x8000050c : left most digit, value 0 .. 9
+------------------------------------------------------------------------------
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;

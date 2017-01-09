@@ -321,18 +321,6 @@ begin
   slvsel0_pad : outpad generic map (tech => padtech)
     port map (epcs_ncso, spmo.csn);  
   
-----------------------------------------------------------------------
----  AHB ROM ---------------------------------------------------------
-----------------------------------------------------------------------
-
-  bpromgen : if CFG_AHBROMEN /= 0 and CFG_SPIMCTRL = 0 generate
-    brom : entity work.ahbrom
-      generic map (hindex => 0, haddr => CFG_AHBRODDR, pipe => CFG_AHBROPIP)
-      port map (rstn, clkm, ahbsi, ahbso(0));
-  end generate;
-  noprom : if CFG_AHBROMEN = 0 and CFG_SPIMCTRL = 0 generate
-    ahbso(0) <= ahbs_none;
-  end generate;
   
 ----------------------------------------------------------------------
 ---  APB Bridge and various peripherals ------------------------------
